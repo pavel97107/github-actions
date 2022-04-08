@@ -21,5 +21,6 @@ module.exports = {
     quotes: ["error", "double"],
     "prettier/prettier": "error",
     "react/jsx-one-expression-per-line": "off",
+    "comma-dangle": "off",
   },
 };
