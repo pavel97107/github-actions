@@ -22,8 +22,11 @@ jobs:
         with:
           node-version: 16
 
+      - name: Yarn install
+        run: npm install --global yarn
+
       - name: Install Node.js dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run ESLint
         run: npm run lint
